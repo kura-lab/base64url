@@ -1,0 +1,27 @@
+{
+    "name": "kura-lab/base64url",
+    "description": "Base64url Encoding/Decoding Library",
+    "keywords": ["Base64url"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/kura-lab/base64url",
+    "authors": [
+      {
+        "name": "kura",
+        "email": "mkurahay@gmail.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "4.6.*",
+        "fabpot/php-cs-fixer": "1.7.*"
+    },
+    "autoload": {
+      "psr-0": {
+        "kuralab\\base64url": "src/"
+      }
+    }
+}
